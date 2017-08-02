@@ -19,8 +19,7 @@ public class bettingAid {
     public static void main(String[] args) {
         Scanner scan = new Scanner (System.in);
 
-        System.out.print("Enter Home Team Name - ");
-        while();
+        System.out.print("Enter Home Team Name Please - ");
         homeTeam = scan.nextLine();
         System.out.print("Enter Home Team Odds(Decimal) - ");
         if (scan.hasNextFloat()) {
